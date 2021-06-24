@@ -49,7 +49,7 @@ app.get(global.gConfig.app_uri_gettokenbalance, function(req, res) {
 });
 
 // setting the application to listen on port configured in the config file
-var server = app.listen(global.gConfig.node_port, function() {
+var server = app.listen(process.env.PORT || global.gConfig.node_port, function() {
     var host = server.address().address
     var port = server.address().port
     console.log("Fetch Tweet Details app listening at %s", port)
