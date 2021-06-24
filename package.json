@@ -1,7 +1,7 @@
 {
   "name": "expgen",
   "version": "1.0.0",
-  "description": "This app fetches the details of a tweet based on the tweet id passed as a request parameter",
+  "description": "This app fetches the balance of a wallet based on the wallet address and token address passed as a request parameter",
   "private": true,
   "scripts": {
     "start": "node app.js"
