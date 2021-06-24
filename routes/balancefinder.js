@@ -32,7 +32,7 @@ global.gConfig = finalConfig;
 
 // Initialisng the web3 object
 const web3 = createAlchemyWeb3(
-  global.gConfig.url_twitter + global.gConfig.api_key );
+  global.gConfig.provider_api_url + global.gConfig.api_key );
   
 // this function routes the HTTP GET Requests to the provide URL path which is being specified with the specified access token and access keys
 app.get( global.gConfig.app_uri_gettokenbalance, function ( req, res )
