@@ -1,11 +1,11 @@
 {
     "development": {
         "config_id": "development",
-		"provider_api_url": "https://eth-mainnet.alchemyapi.io/v2/",
-		"api_key": "lL7JKoLn0pxMORx9WwWUteHZa2Ly4aOk"
-        "app_name": "gettokenbalance",
+		"app_name": "gettokenbalance",
         "app_desc": "this app fetches the balance of a wallet address and token address, the user passes in the URL",
 		"app_uri_gettokenbalance": "/getBalance/",
-		"node_port": 3003
+		"node_port": 3003,
+		"provider_api_url": "https://eth-mainnet.alchemyapi.io/v2/",
+		"api_key": "lL7JKoLn0pxMORx9WwWUteHZa2Ly4aOk"
     }
 }
