@@ -37,9 +37,11 @@ app.get(global.gConfig.app_uri_gettokenbalance, function(req, res) {
 
        const isItDoneYet = new Promise((resolve, reject) => {
    web3.alchemy.getTokenBalances(address, tokenAddress).then( balances => {
-	   balances = JSON.parse(balances);
+	    
+ 	   balances = JSON.parse(JSON.stringify(balances, 0, 2));
 	  console.log(JSON.stringify(balances, 0, 2));
    res.end(JSON.stringify(balances, 0, 2));
+  
 	
 });
 	   })

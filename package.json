@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This app fetches the details of a tweet based on the tweet id passed as a request parameter",
   "private": true,
-  
   "scripts": {
     "start": "node app.js"
   },
