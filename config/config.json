@@ -1,0 +1,9 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "gettokenbalance",
+        "app_desc": "this app fetches the balance of a wallet address and token address, the user passes in the URL",
+	"app_uri_gettokenbalance": "/getBalance/",
+    "node_port": 3001,
+    }
+}
